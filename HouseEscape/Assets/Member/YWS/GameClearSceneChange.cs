@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TitleSceneChange : MonoBehaviour
+public class GameClearSceneChange : MonoBehaviour
 {
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameStart();
+            ReturnTitle();
         }
     }
 
-    public void GameStart()
+    private void ReturnTitle()
     {
-        SceneManager.LoadScene("GameClear");
+        SceneManager.LoadScene("Title");
     }
 }
