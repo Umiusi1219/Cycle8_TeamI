@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiType: 0
-  printMessage: hogehoge
+  printMessage: hoge
 --- !u!1 &4639574782127663684
 GameObject:
   m_ObjectHideFlags: 0
